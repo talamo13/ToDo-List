@@ -17,4 +17,5 @@ public class User {
     private ObjectId id;
     private String username;
     private String password;
+    private List<String> tasks;
 }
