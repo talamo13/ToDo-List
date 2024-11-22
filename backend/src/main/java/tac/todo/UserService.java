@@ -19,4 +19,12 @@ public class UserService {
     public Optional<User> getUser(String id){
         return userRepository.findByUsername(id);
     }
+
+    public User saveUser(User user){
+        return userRepository.save(user);
+    }
+
+    // add task to a users list
+
+    // remove a task from a users list
 }
